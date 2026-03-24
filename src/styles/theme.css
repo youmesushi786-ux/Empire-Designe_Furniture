@@ -1,0 +1,57 @@
+:root {
+  --background: #f8f6f1;
+  --foreground: #1f2d22;
+  --card: #ffffff;
+  --card-foreground: #1f2d22;
+  --popover: #ffffff;
+  --popover-foreground: #1f2d22;
+  --primary: #234b34;
+  --primary-foreground: #ffffff;
+  --secondary: #eaf1ea;
+  --secondary-foreground: #1f2d22;
+  --muted: #f1f4ef;
+  --muted-foreground: #66776a;
+  --accent: #dce8dc;
+  --accent-foreground: #1f2d22;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(35, 75, 52, 0.14);
+  --input: #ffffff;
+  --ring: #234b34;
+  --radius: 0.75rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
